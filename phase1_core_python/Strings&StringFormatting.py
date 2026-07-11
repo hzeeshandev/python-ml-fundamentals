@@ -37,3 +37,12 @@ gpa = 2.5
 age = 22
 print(f"my name is {stud} and im {age} year old and my gpa is {gpa:.1f}.")
 print(f"{stud.upper()} is a student.")
+
+# Exercise
+
+Name = "muhammad zeeshan ali"
+Name.title()
+first_name = Name.split()[0]
+print(first_name)
+print(len(Name))
+print(f"Your name has {len(Name)} characters and starts with 'M'")
