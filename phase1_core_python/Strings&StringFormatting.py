@@ -41,7 +41,7 @@ print(f"{stud.upper()} is a student.")
 # Exercise
 
 Name = "muhammad zeeshan ali"
-Name.title()
+print(Name.title())
 first_name = Name.split()[0]
 print(first_name)
 print(len(Name))
